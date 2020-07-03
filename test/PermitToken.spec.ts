@@ -16,7 +16,7 @@ import { ZERO, ONE } from '@testUtils/constants';
 
 
 import { expectRevert, singletons } from '@openzeppelin/test-helpers';
-import { bigNumberify, hexlify, keccak256, defaultAbiCoder, toUtf8Bytes, solidityPack } from 'ethers/utils'
+import { hexlify, keccak256, toUtf8Bytes } from 'ethers/utils'
 import { ecsign, ECDSASignature } from 'ethereumjs-util'
 
 import BigNumber from 'bignumber.js';

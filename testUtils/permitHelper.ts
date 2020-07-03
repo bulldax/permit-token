@@ -1,6 +1,6 @@
 import BN from 'bn.js';
 
-import { bigNumberify, hexlify, keccak256, defaultAbiCoder, toUtf8Bytes, solidityPack } from 'ethers/utils'
+import { keccak256, defaultAbiCoder, toUtf8Bytes, solidityPack } from 'ethers/utils'
 
 
 export function getDomainSeparator(tokenAddress: string, name: string, version: string) {
