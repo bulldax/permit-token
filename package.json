@@ -7,7 +7,7 @@
     "test": "test"
   },
   "devDependencies": {
-    "@openzeppelin/contracts": "^3.0.1",
+    "@openzeppelin/contracts": "^4.7.2",
     "@openzeppelin/test-helpers": "^0.5.5",
     "@typechain/truffle-v5": "^2.0.2",
     "@types/chai": "^4.2.11",
